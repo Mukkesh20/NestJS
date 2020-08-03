@@ -2282,13 +2282,13 @@
         "affectsGlobalScope": false
       },
       "../src/auth/jwtpayload.interface.ts": {
-        "version": "f6720453f66a44264f835d2d02979a873b9de86213ec3301e2f247b0d757c3bb",
+        "version": "f260a4e82d0d873c13f23361387161509d72b8f94396ccf4f17d16eb4a2dee85",
         "signature": "77c1b8501a92de931f60f711f96a05e4c972fc42fb2c0c63a228e4e14c82b9a9",
         "affectsGlobalScope": false
       },
       "../src/auth/auth.service.ts": {
-        "version": "0cff381c6c0ffd73a57d93b53a12cf7f2b0de1d859d58c141fd2b29113519e7d",
-        "signature": "6ccf18387dba019807cab912adefe561de01c47dacd72694d2b122b6b4c9b795",
+        "version": "4c26218a2dc6ff6e939b7e165a634c50a239abb142a5b9c8e0c43b3701e5cfe4",
+        "signature": "c792ce2f4a0ff7253554cb887c4830abe75f4a4b87b780603b2859a96b88f17e",
         "affectsGlobalScope": false
       },
       "../src/auth/auth.controller.ts": {
@@ -2317,7 +2317,7 @@
         "affectsGlobalScope": false
       },
       "../src/auth/auth.module.ts": {
-        "version": "821a0fa9a5a223deb31ba7bf711d5404081ee18c2953a5db96d17f49b4d8173c",
+        "version": "fa10e8d7640baa7923ebf4c3d79cfce797b18f367039b9f30c1427a3b1d4453c",
         "signature": "a28b5c0c372fb375910b3fe3c3ce4331509bc18ccef7cc39c9ee9d8daf8225d1",
         "affectsGlobalScope": false
       },
@@ -2327,7 +2327,7 @@
         "affectsGlobalScope": false
       },
       "../src/app.module.ts": {
-        "version": "d7bc274bbee7e0e703303d29fe2c722c0c8255a45833657b25a06959140000d3",
+        "version": "d0670ea082f61f388eb1e2181c67d7b91ab747efd677f6e2f491df9f27bbf066",
         "signature": "b82491e2990291580288c5602d4c017238977749d52b17391f0e45d9a29be644",
         "affectsGlobalScope": false
       },
@@ -2922,7 +2922,7 @@
         "affectsGlobalScope": false
       },
       "../src/main.ts": {
-        "version": "5136866fa184a8aee5c6020bb002f4e9941fb8c07694e8cb534765218f63b9be",
+        "version": "ec3cc391a7ea910b41caac781eec833ede7bc023bf346c92e48a180ffdd89870",
         "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
         "affectsGlobalScope": false
       },

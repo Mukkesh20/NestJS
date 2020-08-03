@@ -27,14 +27,8 @@ export class AuthService {
             const passwordEntered = await this.hashPassword(password, user[0].salt)
             if(user && (passwordEntered === user[0].password)){
                 const payload: JwtPayload = {username}
-                const accessToken = await this.jwtService.sign(payload)
-                return {
-                    expires_in: new Date().getTime() + 60*60*1000,
-                    access_token: accessToken,
-                    user_id: payload,
-                    status: 200,
-                    registered : true
-                 };
+                //const accessToken = await this.jwtService.sign(payload)
+                return this.createJwtPayload(user)
             }else{
                 throw new UnauthorizedException('Invalid Password')
             }
@@ -75,6 +69,20 @@ export class AuthService {
         return bcrypt.hash(password, salt)
     }
 
-    
+    async createJwtPayload(user : User){
+
+        let data: JwtPayload = {
+            username: user.username,
+        };
+
+        let jwt = await this.jwtService.sign(data);
+
+        return {
+            username: user.username,
+            expiresIn: 3600,
+            token: jwt            
+        }
+
+    }
 
 }
